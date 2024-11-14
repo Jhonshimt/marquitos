@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="inicio.css">
+    <title>Fábrica de Aluminio - Inicio</title>
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loading-bar">Cargando...</div>
+    </div>
+    <header>
+        <h1>tienda de mochilas y bolsas </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="showSection('inicio')">Inicio</a></li>
+                <li><a href="compra.html" onclick="showSection('productos')">Productos</a></li>
+                <li><a href="contacto.html" onclick="showSection('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="section inicio">
+            <h2>Bienvenido a tu tienda de bolsos favorita</h2>
+            <p>En esta tienda nunca te faltará nada, VEN AHORA Y COMPRA AHORA :u</p>
+            
+            <div class="ofertas">
+                <div class="oferta" style="border: 2px solid #007BFF; border-radius: 8px; padding: 10px;">
+                    <img src="imgprod/se.png" alt="Oferta 1">
+                    <p>Gran descuento en productos seleccionados</p>
+                </div>
+                <div class="oferta" style="border: 2px solid #007BFF; border-radius: 8px; padding: 10px;">
+                    <img src="imgprod/carro.png" alt="Oferta 2">
+                    <p>Envío gratis en compras mayores a $1000</p>
+                </div>
+                <div class="oferta" style="border: 2px solid #007BFF; border-radius: 8px; padding: 10px;">
+                    <img src="imgprod/b.png" alt="Oferta 3">
+                    <p>Compra 2 y llévate el tercero a mitad de precio</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/JhonatanjsnqKnwkwnsnsnsnsnsnsm" target="_blank"><img src="imgprod/face.png" alt="Facebook" style="width: 20px; vertical-align: middle;" /></a>
+            <a href="https://www.instagram.com/j7nnt._.7/" target="_blank"><img src="imgprod/ig.png" alt="Instagram" style="width: 20px; vertical-align: middle;" /></a>
+        </div>
+    </footer>
+    
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                document.querySelector('.loading-screen').style.display = 'none';
+                showSection('inicio');
+            }, 3000); 
+        };
+        function showSection(id) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(id).style.display = 'block';
+        }
+
+        showSection('inicio');
+    </script>
+</body>
+</html>

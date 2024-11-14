@@ -1,0 +1,44 @@
+.contacto {
+    padding: 20px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contacto form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contacto form input, 
+.contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+.contacto form input:focus, 
+.contacto form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.contacto form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.contacto form button:hover {
+    background-color: #0056b3;
+}

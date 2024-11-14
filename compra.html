@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="compra.css">
+    <title>Fábrica de Aluminio - Compra</title>
+</head>
+<body>
+    <header>
+        <h1>bolsos y mochilas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="showSection('inicio')">Inicio</a></li>
+                <li><a href="compra.html" onclick="showSection('productos')">Productos</a></li>
+                <li><a href="contacto.html" onclick="showSection('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos" class="section productos">
+            <h3>Nuestros Productos</h3>
+            <div class="products-container">
+                <div class="product">
+                    <img src="n.png" alt="Imagen del Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>bolso oscuro con clase</p>
+                    <p>Precio aproximado: $350</p>
+                    <button type="button" onclick="completePurchase('Producto 1', 350)">Comprar</button> 
+                </div>
+                <div class="product">
+                    <img src="nl.png" alt="Imagen del Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>bolso de clase alta </p>
+                    <p>Precio: $550</p>
+                    <button type="button" onclick="completePurchase('Producto 2', 550)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="l.png" alt="Imagen del Producto 3">
+                    <h3>Producto 3</h3>
+                    <p>bolso de piel de la mejor calidad</p>
+                    <p>Precio: $450</p>
+                    <button type="button" onclick="completePurchase('Producto 3', 450)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="d.png" alt="Imagen del Producto 4">
+                    <h3>Producto 4</h3>
+                    <p>bolso de colavoracion (exclusivo)</p>
+                    <p>Precio: $475</p>
+                    <button type="button" onclick="completePurchase('Producto 4', 475)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="a.png" alt="Imagen del Producto 5">
+                    <h3>Producto 5</h3>
+                    <p>bolso blanco hermoso</p>
+                    <p>Precio: $600</p>
+                    <button type="button" onclick="completePurchase('Producto 5', 600)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="c.png" alt="Imagen del Producto 6">
+                    <h3>Producto 6</h3>
+                    <p>combina contigo esta clase</p>
+                    <p>Precio: $750</p>
+                    <button type="button" onclick="completePurchase('Producto 6', 750)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="db.png" alt="Imagen del Producto 7">
+                    <h3>Producto 7</h3>
+                    <p>exclusivo y unico</p>
+                    <p>Precio: $470</p>
+                    <button type="button" onclick="completePurchase('Producto 7', 470)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="f.png" alt="Imagen del Producto 8">
+                    <h3>Producto 8</h3>
+                    <p>bolso de la mejor calidad desde francia </p>
+                    <p>Precio: $500.</p>
+                    <button type="button" onclick="completePurchase('Producto 8', 500)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="r.png" alt="Imagen del Producto 9">
+                    <h3>Producto 9</h3>
+                    <p>lleva tu conjunto</p>
+                    <p>Precio: $600</p>
+                    <button type="button" onclick="completePurchase('Producto 9', 600)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="o.png" alt="Imagen del Producto 10">
+                    <h3>Producto 10</h3>
+                    <p>a tu estilo</p>
+                    <p>Precio: $325</p>
+                    <button type="button" onclick="completePurchase('Producto 10', 325)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="/q.png" alt="Imagen del Producto 11">
+                    <h3>Producto 11</h3>
+                    <p>perfecta para presumir</p>
+                    <p>Precio: $350</p>
+                    <button type="button" onclick="completePurchase('Producto 11', 350)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="ka.png" alt="Imagen del Producto 12">
+                    <h3>Producto 12</h3>
+                    <p>soporta de todo </p>
+                    <p>Precio: $890.</p>
+                    <button type="button" onclick="completePurchase('Producto 12', 890)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="kb.png" alt="Imagen del Producto 13">
+                    <h3>Producto 13</h3>
+                    <p>el mejor precio para lo mejor </p>
+                    <p>Precio: $290.</p>
+                    <button type="button" onclick="completePurchase('Producto 13', 290)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="kc.png" alt="Imagen del Producto 14">
+                    <h3>Producto 14</h3>
+                    <p>llevate lo mejor</p>
+                    <p>Precio: $900</p>
+                    <button type="button" onclick="completePurchase('Producto 14', 900)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="kd.png" alt="Imagen del Producto 15">
+                    <h3>Producto 15</h3>
+                    <p>esto te quedara perfecto</p>
+                    <p>Precio: $1,000 por unidad.</p>
+                    <button type="button" onclick="completePurchase('Producto 15', 1000)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="kf.png" alt="Imagen del Producto 16">
+                    <h3>Producto 16</h3>
+                    <p>se vera bien en ti</p>
+                    <p>Precio: $800</p>
+                    <button type="button" onclick="completePurchase('Producto 16', 800)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="kg.png" alt="Imagen del Producto 17">
+                    <h3>Producto 17</h3>
+                    <p>lo mejor de lo mejor</p>
+                    <p>Precio: $700</p>
+                    <button type="button" onclick="completePurchase('Producto 17', 700)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="kh.png" alt="Imagen del Producto 18">
+                    <h3>Producto 18</h3>
+                    <p>llevalo y no te arrepentiras </p>
+                    <p>Precio: $460</p>
+                    <button type="button" onclick="completePurchase('Producto 18', 460)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="ki.png" alt="Imagen del Producto 19">
+                    <h3>Producto 19</h3>
+                    <p>se vera muy bien en ti</p>
+                    <p>Precio: $430</p>
+                    <button type="button" onclick="completePurchase('Producto 19', 430)">Comprar</button>
+                </div>
+                <div class="product">
+                    <img src="kj.png" alt="Imagen del Producto 20">
+                    <h3>Producto 20</h3>
+                    <p>definnitivamente este te lo debes de llevar</p>
+                    <p>Precio: $650</p>
+                    <button type="button" onclick="completePurchase('Producto 20', 650)">Comprar</button>
+                </div>
+        </section>
+
+        <section id="compra" class="section compra" style="display: none;">
+            <form action="" method="post">
+                <input type="hidden" id="product-name-input" name="product_name">
+                <div class="compra-container">
+                    <h3 id="product-name"></h3>
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required onchange="calculateTotal()">
+                    <label for="calle">Calle:</label>
+                    <input type="text" id="calle" name="calle" required>
+                    <label for="postal">Código Postal:</label>
+                    <input type="text" id="postal" name="postal" required>
+                    <label for="numero">Número:</label>
+                    <input type="text" id="numero" name="numero" required>
+                    <label for="especificaciones">Especificaciones del lugar:</label>
+                    <input type="text" id="especificaciones" name="especificaciones" required>
+                    <p id="total-amount">Total: $0</p>
+                    <button type="submit" onclick="submitForm('proceso')">Realizar compra</button> 
+                </div>  
+            </form>
+            <button onclick="showSection('productos')">Volver a Productos</button>
+        </section>
+        
+        <section id="proceso" class="section proceso" style="display: none; text-align: center; margin-top: 40px;">
+            <img src="kk.png" alt="Tu compra está en proceso">
+        </section>
+        
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/JhonatanjsnqKnwkwnsnsnsnsnsnsm" target="_blank"><img src="face.png" alt="Facebook" style="width: 20px; vertical-align: middle;" /></a>
+            <a href="https://www.instagram.com/j7nnt._.7/" target="_blank"><img src="ig.png" alt="Instagram" style="width: 20px; vertical-align: middle;" /></a>
+        </div>
+    </footer>
+
+    <script>
+        function showImage() {
+    document.querySelectorAll('.section').forEach(section => {
+        section.style.display = 'none';
+    });
+
+    showSection('proceso');
+}
+
+        let selectedProduct = '';
+        let selectedPrice = 0;
+        function submitForm() {
+            showSection('proceso');
+    const productName = document.getElementById('product-name').innerText;
+    document.getElementById('product-name-input').value = productName; 
+}
+    
+        function showSection(id) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(id).style.display = 'block';
+        }
+    
+        function completePurchase(productName, price) {
+            selectedProduct = productName;
+            selectedPrice = price;
+            document.getElementById('product-name').innerText = selectedProduct;
+            document.getElementById('total-amount').innerText = 'Total: $0';
+            showSection('compra');
+        }
+    
+        function calculateTotal() {
+            const quantity = document.getElementById('quantity').value;
+            const total = selectedPrice * quantity;
+            document.getElementById('total-amount').innerText = 'Total: $' + total;
+        }
+    
+        function complete() {
+            document.getElementById('product-name-input').value = selectedProduct;
+    
+            calculateTotal();
+    
+            document.querySelector('form').submit();
+        }
+    
+        showSection('productos');
+
+    </script>
+    
+</body>
+</html>
